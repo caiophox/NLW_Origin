@@ -1,8 +1,9 @@
-*{
+* {
   margin: 0;
 }
 
-html, body {
+html,
+body {
   --grey: hsl(327, 91%, 9%);
   --black: hsl(240, 6%, 13%);
 
@@ -17,10 +18,10 @@ body {
 }
 
 main {
-  background: url(images/background.svg);
-  width: 375px;
-  height: 812px;
-  color: var(--grey);
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  height: 100vh;
+  min-height: 812px;
 }
 
 .avatar {
@@ -31,7 +32,7 @@ main {
 
 .avatar span {
   position: absolute;
-  top:-15px;
+  top: -15px;
   z-index: 1;
 }
 
